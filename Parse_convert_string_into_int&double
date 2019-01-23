@@ -1,0 +1,17 @@
+class Convert{
+	
+		public static void main(String args[]){
+
+		String number_convert_to_string="2018";
+		System.out.println("The Entered String is :" + number_convert_to_string);
+		int number = Integer.parseInt(number_convert_to_string);
+		System.out.println("Converted to String : "+ number);
+		double number_into_float = Double.parseDouble(number_convert_to_string);
+		System.out.println("The String is : "+ (number_convert_to_string +1));
+		System.out.println("The Integer is :" + (number + 1));
+		System.out.println("The Float is :" + (number_into_float + 1));
+
+
+		}
+	
+}
